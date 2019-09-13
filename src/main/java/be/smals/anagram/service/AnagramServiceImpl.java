@@ -5,6 +5,7 @@ import be.smals.anagram.exception.AnagramException;
 import java.util.Arrays;
 
 public class AnagramServiceImpl implements AnagramService {
+
     @Override
     public boolean isAnagram(String word1, String word2) throws AnagramException {
         char[] str1 =word1.toCharArray();

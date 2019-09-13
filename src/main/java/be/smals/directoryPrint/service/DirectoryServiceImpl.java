@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DirectoryServiceImpl implements DirectoryService {
-
     @Override
     public List<String> getFileStructure(String filePath) throws DirectoryException {
 
